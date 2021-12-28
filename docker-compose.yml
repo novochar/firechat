@@ -8,6 +8,7 @@ services:
     - './app:/app'
     - '/app/node_modules'
     ports:
-    - '3001:3000'
+    - '3000:3000'
     environment:
     - NODE_ENV=development
+    #command: npm install
